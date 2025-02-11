@@ -1,0 +1,37 @@
+# age=14
+# if age  >= 18:
+#    print("you are a major" )
+# elif age > 12 and age < 18: 
+#    print("you are a teenager")
+# else:
+#    print("you are a kid")   
+
+
+# my_num = 33
+# if my_num %2 == 0:
+#    print("number is even"+str(my_num))
+# else:
+#    print("number is odd "+str(my_num))   
+  
+# num=3
+# i=1
+# while(i<=10):
+#    print(str(num)+"*"+str(i)+"="+str(num*i))
+#    i+=1
+# num= int(input("please entre the number : "))
+# for i in range (1,11):
+#     print(f"{num} * {i} = {num*i}")
+
+ 
+# for num1 in range (3,8):
+#     for num2 in range (1,11):
+#         print(f"{num1} * {num2} = {num1*num2}")
+#     print("--------------------------")    
+
+my_skip =[10,20,30,40,50]
+
+for num in range(1,51):
+    if num in  my_skip:
+        continue
+    else:
+        print(num, end=",")
